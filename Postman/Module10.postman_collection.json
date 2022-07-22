@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "ea250375-95a2-4e61-856b-93ba2170aaf8",
+		"name": "Module10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21518814"
+	},
+	"item": [
+		{
+			"name": "Error Occured",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/united/flights/SFO",
+					"path": [
+						"united",
+						"flights",
+						"SFO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Error Handled",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

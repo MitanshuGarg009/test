@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "43617d77-f100-4fba-87b7-024bd2003ea9",
+		"name": "Module7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21518814"
+	},
+	"item": [
+		{
+			"name": "vm publish-consume",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "vm publish",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/hello",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

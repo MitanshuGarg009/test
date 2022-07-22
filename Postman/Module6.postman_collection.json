@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "53a3cb31-155b-49aa-af12-402ba7956e09",
+		"name": "Module6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21518814"
+	},
+	"item": [
+		{
+			"name": "MuleDebugging",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "MuleDebugging QueryParam",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

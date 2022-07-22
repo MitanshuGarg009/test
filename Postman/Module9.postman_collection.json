@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "ef3e3b27-d1a8-4a55-8e83-05a2c731bd94",
+		"name": "Module9",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21518814"
+	},
+	"item": [
+		{
+			"name": "Validation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/flights?AIRLINE&code=SFO",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"flights"
+					],
+					"query": [
+						{
+							"key": "AIRLINE",
+							"value": null
+						},
+						{
+							"key": "code",
+							"value": "SFO"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

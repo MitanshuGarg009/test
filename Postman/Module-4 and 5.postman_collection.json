@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "2a9da8f7-9ddb-45cc-9bf1-717d8f895c2c",
+		"name": "Module-4 and 5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21518814"
+	},
+	"item": [
+		{
+			"name": "getAllFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/flights",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFlightID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/flights/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"flights",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postFlights",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/postFlight",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"postFlight"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Proxy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Policy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

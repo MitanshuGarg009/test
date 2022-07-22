@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "d3b91aa8-1bda-4c4a-ad63-107ff4d5d7d1",
+		"name": "Module8",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21518814"
+	},
+	"item": [
+		{
+			"name": "American-SOAP",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
